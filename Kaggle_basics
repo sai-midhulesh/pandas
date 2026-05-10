@@ -1,0 +1,5 @@
+write code to save this animals to disk as a csv file with the name `cows_and_goats.csv`.
+animals.to_csv('cows_and_goats.csv')
+
+// to remove the inbuilt column index with in the data you can use the index_col
+reviews = pd.read_csv('../input/wine-reviews/winemag-data_first150k.csv',index_col = 0) 
